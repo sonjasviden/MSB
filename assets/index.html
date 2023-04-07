@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MSB</title>
+
+	<!-- Bootstrap 5.2 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<nav class="navbar">
+		<img src="images/logo_black.png" class="logo">
+		<input type="search" class="search-field" placeholder="Sök...">
+		<button class="show-menu-button">
+			<img src="images/menu_icon.png" alt="menu">
+		</button>
+		<div class="menu-slide-out hide">
+			<button class="close-menu-button">&times;</button>
+			<h2>Meny</h2>
+			<ul class="menu-list">
+				<li>Kontakt</li>
+				<li>Om oss</li>
+				<li>Statistik</li>
+				<li>Regler</li>
+				<li>Ämnesområden</li>
+				<li>Råd till privatpersoner</li>
+				<li>Aktuellt</li>
+				<li>Publikationer</li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<header>
+		<div class="header-text">
+			<h1>Fallande träd</h1>
+			<h3>Den vanligaste orsaken till elavbrott under förra året var träd som fallit över ledningarna. För att
+				undvika
+				olyckor och förebygga att våra träd faller oplanerat - läs vidare nedan.
+				<br>
+				Skulle du se ett träd som fallit, hör av dig till oss omgående genom att skicka en orosanmälan.
+			</h3>
+		</div>
+	</header>
+
+	<div class="header-box">
+		<img src="images/call.png" alt="">
+		<button>Gör en orosanmälan</button>
+	</div>
+
+	<section>
+		<div class="section1">
+			<div class="column-human">
+				<img src="images/safer.png" alt="">
+			</div>
+			<div class="column-safer">
+				<img src="images/map.png" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="section2">
+			<div class="risks">
+				<h3>När är risken för fallande träd som störst?</h3>
+				<ul>
+					<li>• Vid storm/kraftig blåst</li>
+					<p>Träd har större risk att falla under kraftiga vindar, i synnerhet vid storm eller orkan.</p>
+					<li>• Vid blöt, ofrusen mark</li>
+					<p>Trädet skulle kanske normalt klara vinden, men rötterna ger vika. Orsaken kan vara blöt mark
+						eller att marken inte är frusen</p>
+					<li>• Vid blöt, ofrusen mark</li>
+					<p>Trädet skulle kanske normalt klara vinden, men rötterna ger vika. Orsaken kan vara blöt mark
+						eller att marken inte är frusen</p>
+				</ul>
+			</div>
+			<div class="warning-signs">
+				<h3>Varningstecken att hålla utkik efter</h3>
+				<ul>
+					<li><img src="images/1200px-Font_Awesome_5_regular_lightbulb.svg.png" alt=""> Träd som redan
+						börjat fälla stora grenar</li>
+					<li><img src="images/1200px-Font_Awesome_5_regular_lightbulb.svg.png" alt=""> Träd som lutar
+						oroväckande mycket</li>
+					<li><img src="images/1200px-Font_Awesome_5_regular_lightbulb.svg.png" alt=""> Stora träd som
+						har kortare avstånd till hus än trädet är högt</li>
+				</ul>
+				<div class="chopper">
+					<img src="images/tree.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="corner_lines">
+			<img src="images/corner_lines.png" alt="">
+		</div>
+		<div class="section3">
+			<div class="contact">
+				<h3>Orosanmälan</h3>
+				<form>
+					<div class="contact-form">
+						<div class="column1">
+							<input type="text" id="firstname" placeholder="Förnamn">
+
+							<input type="text" id="lastname" placeholder="Efternamn">
+						</div>
+						<div class="column2">
+							<input type="tel" placeholder="Mobilnummer">
+
+							<select id="city" placeholder="Trädets befinnande (län)">
+								<option value="" disabled selected>Län</option>
+								<option value=“blekinge">Blekinge</option>
+								<option value="dalarna">Dalarna</option>
+								<option value="gotland">Gotland</option>
+								<option value=“gävleborg">Gävleborg</option>
+								<option value=“halland">Halland</option>
+								<option value=“jämtland">Jämtland</option>
+								<option value=“jönköping">Jönköping</option>
+								<option value=“kalmar">Kalmar</option>
+								<option value=“kronoberg">Kronoberg</option>
+								<option value=“norrbotten">Norrbotten</option>
+								<option value=“skåne">Skåne</option>
+								<option value="stockholm">Stockholm</option>
+								<option value="södermanland">Södermanland</option>
+								<option value="uppsala">Uppsala</option>
+								<option value="värmland">Värmland</option>
+								<option value="västerbotten">Västerbotten</option>
+								<option value="västernorrland">Västernorrland</option>
+								<option value="västmanland">Västmanland</option>
+								<option value=“västra götaland">Västra Götaland</option>
+								<option value=“örebro">Örebro</option>
+								<option value="östergötland">Östergötland</option>
+							</select>
+						</div>
+					</div>
+					<div class="submit">
+						<button type="submit">Skicka</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<footer>
+		<h2>Kontakta MSB</h2>
+		<div class="footer">
+
+			<div class="contact-us">
+				<div class="pressansvarig">
+					<img src="images/press.png" alt="">
+					<h2>Pressansvarig</h2>
+					<h3>Anna Andersson</h3>
+					<p>070 123 45 67</p>
+				</div>
+				<div class="stadsbyggnadsansvarig">
+					<img src="images/stadsbyggnadsansvarig.png" alt="">
+					<h2>Stadsbyggnadsansvarig</h2>
+					<h3>Maria Persson</h3>
+					<p>070 123 45 67</p>
+				</div>
+				<div class="jobb-utbildning">
+					<img src="images/jobb.png" alt="">
+					<h2>Jobb & Utbildning</h2>
+					<h3>Håkan Håkansson</h3>
+					<p>070 123 45 67</p>
+
+				</div>
+			</div>
+
+			<div class="links">
+				<a href="#">Kontakt</a><br>
+				<a href="#">Om oss</a><br>
+				<a href="#">Statistik</a><br>
+				<a href="#">Regler</a><br>
+				<a href="#">Ämnesområden</a><br>
+				<a href="#">Råd till privatpersoner</a><br>
+				<a href="#">Aktuellt</a><br>
+				<a href="#">Publikationer</a><br>
+				<a href="#">Nyheter</a><br>
+			</div>
+		</div>
+		<img class="corner-decor" src="images/corner-decor.png" alt="">
+	</footer>
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
