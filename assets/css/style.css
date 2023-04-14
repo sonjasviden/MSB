@@ -289,7 +289,6 @@ footer h2 {
 
 .footer {
 	display: flex;
-	justify-content: center;
 	overflow-x: hidden;
 
 }
@@ -298,6 +297,10 @@ footer h2 {
 	width: 30px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.contact-us {
+	text-align: center;
 }
 
 .contact-us img {
@@ -353,7 +356,7 @@ a:active {
 
 /* DESKTOP VIEW */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 	header {
 		background-repeat: inherit;
 		background-size: cover;
