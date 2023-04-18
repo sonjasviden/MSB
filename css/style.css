@@ -28,7 +28,7 @@ body {
 }
 
 .search-field {
-	border-radius: 0.5rem;
+	border-radius: 30px;
 	border: 1px solid black;
 	padding: 0.5rem;
 	width: 30%;
@@ -77,17 +77,6 @@ ul {
 	color: #1a1a1a;
 }
 
-.menu-slide-out h2 {
-	text-align: center;
-	color: #1a1a1a;
-	text-transform: uppercase;
-	font-size: 1.5rem;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 800;
-	float: right;
-	padding: 15px;
-}
-
 header {
 	background: url('/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg');
 	height: 95vh;
@@ -114,13 +103,12 @@ header {
 }
 
 .header-box {
-	background-color: #ffffff;
+	background-color: #EBEBEB;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -10%;
 	padding: 1rem;
-	box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .header-box img {
@@ -466,5 +454,26 @@ a:active {
 
 	.contact-us {
 		text-align: center;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.header-text h3 {
+		font-size: 20px;
+	}
+
+	.header-box {
+		display: flex;
+		justify-content: space-around;
+		margin-top: -5%;
+	}
+
+	.submit {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+
+	.close-menu-button {
+		font-size: 2.5rem;
 	}
 }
