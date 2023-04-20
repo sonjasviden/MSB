@@ -349,6 +349,14 @@ a:active {
 	display: block;
 }
 
+.illustration {
+	padding-left: 30px;
+}
+
+.illustration img {
+	width: 10%;
+}
+
 /* DESKTOP VIEW */
 
 @media screen and (min-width: 900px) {
@@ -461,6 +469,14 @@ a:active {
 
 	.contact-us {
 		text-align: center;
+	}
+
+	.illustration {
+		padding-left: 100px;
+	}
+
+	.illustration img {
+		width: 5%;
 	}
 }
 
